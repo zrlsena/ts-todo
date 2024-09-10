@@ -1,0 +1,161 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccc !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: fixed; 
+    top: 60px; 
+    padding: 10px; 
+    border-radius: 4px;
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px; /* Button ve text arasında boşluk */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  form button {
+    padding: 10px 15px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a29bfe;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #6c5ce7;
+  }
+  
+  ul#list {
+
+    top: 60px;
+    position: fixed; 
+    list-style-type: none;
+    padding: 0;
+    width: 500px;
+    max-height: calc(70vh - 70px); 
+    overflow-y: auto; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    background: white; 
+    margin-top: 70px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul#list li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive; /* İstediğin font */
+  font-optical-sizing: auto;
+  font-weight: 400; /* İstediğin weight */
+  font-style: normal;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+
+  
+
+  
+  .delete-button {
+    padding: 3px 6px 3px 6px; 
+    font-size: 12px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #ff3838; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b; 
+  }
+  
+  .delete-button:active {
+    background-color: #a93226; 
+  }
+  
+  .delete-button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+
+
+.modal-content {
+    background-color: #f8f9fa; 
+    border-radius: 10px;     
+    border: 2px solid #ff3838; 
+  }
+  
+  .modal-header {
+    background-color: #ff3838;
+    color: white;           
+    border-bottom: 1px solid #ff9f1a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .modal-title {
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.5rem;               
+  }
+  
+  .modal-body {
+    color: #212529;          
+    font-size: 1rem;         
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .modal-footer {
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #ffaf40; 
+    border-color: #ff9f1a;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #ee9518; 
+    border-color: #ffaf40;
+  }
+  
+
+  .modal-header .btn-close {
+    filter: invert(1); 
+  }
+  
